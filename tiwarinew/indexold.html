@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TIWARI ENTERPRISES</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- carousel SLIDER -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script>
+      var message = "function disabled";
+
+      function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return
+      false; }
+
+      if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+      document.onmousedown = rtclickcheck;
+    </script>
+</head>
+
+<body onLoad="disableClick()">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <div class="logo-container">
+        <a href="index.html"><img src="./assets/img/logo.jpeg"></a>
+        <h1 class="logo me-auto">
+          <span>Tiwari Enterprises</span>
+            <!-- <p>ISO 9001:2015</p> -->
+        </h1>
+      </div>
+      
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about-us.html">About Us</a></li>
+          <!-- <li>
+            <a class="nav-link scrollto dropbtn" href="#" onclick="myFunction()">Our Products<i
+                class="fa-solid fa-caret-down" style="margin-left:.4rem" class="dropbtn" onclick="myFunction()"></i>
+            </a>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="hand-tools.html">Hand Tools</a>
+                <a href="garden-tool.html">Garden Tools</a>
+                <a href="#">Power Tools</a>
+                <a href="#">Welding Equipments</a>
+                <a href="#">Safety Equipments</a>
+                <a href="#">Link Chains</a>
+                <a href="#">Padlocks</a>
+              </div> -->
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Our Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="hand-tools.html">Hand Tools</a></li>
+                  <li><a class="dropdown-item" href="garden-tool.html">Garden Tools</a></li>
+                  <li><a class="dropdown-item" href="#">Power Tools</a></li>
+                  <li><a class="dropdown-item" href="#">Welding Equipments</a></li>
+                  <li><a class="dropdown-item" href="#">Safety Equipments</a></li>
+                  <li><a class="dropdown-item" href="#">Link Chains</a></li>
+                  <li><a class="dropdown-item" href="#">Padlocks</a></li>
+                </ul>
+              </li>
+
+          <!-- </li> -->
+          <li><a class="nav-link scrollto" href="accolades.html">Accolades</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- <img class="d-block w-100" src="assets/img/slider4.jpeg" alt="First slide"> -->
+      <img class="d-block w-100" src="assets/img/banner01-1.jpg" alt="First slide">
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/1slide.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/2slide.jpg" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <main id="main">
+    
+    
+
+    <!-- ======= Tabs Section ======= -->
+    <section id="about" class="tabs">
+      <div class="container" data-aos="fade-up">
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row" data-aos="fade-up" data-aos-duration="3000">
+              <!-- <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100"> -->
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" class="row about-us">
+                <div class="heading-div">
+                  <h2 style="font-weight: bold;color:balck">About Us</h2>
+                  <hr>
+                </div>
+                <!-- <p class="fst-italic" style="text-align: justify;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line" style="text-align: justify;"></i> Ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
+                    mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul> -->
+                <p style="text-align:justify;margin-top:2.5rem;">
+                  Tiwari Enterprises in Guwahati is one of the leading businesses in the Hand Tool Dealers. Also known
+                  for Hardware Shops, Hardware Dealers, Power Tool Dealers, Water Pump Dealers, Safety Equipment
+                  Dealers, Electric Motor Dealers, Hand Tool Dealers, Chain Saw Dealers and much more. Find Address,
+                  Contact Number, Reviews & Ratings, Photos, Maps of Tiwari Enterprises, Guwahati.
+                </p>
+                <button class="about-btn"><a href="about-us.html">Read More</a></button>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <!-- <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid"> -->
+                <!-- <img src="./assets/img/about-us-new.avif" alt="" class="img-fluid"> -->
+                <img src="./assets/img/about-us-home.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                <p style="text-align: justify;">
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic" style="text-align: justify;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                  <li style="text-align: justify;"><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
+                    mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/tabs-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COUNTER SECTION -->
+    <!-- <section class="counter-section">
+      <div class="counter-container">
+        <ul>
+          <li>
+            <div class="icons"><i class="fa-solid fa-building" style="position: relative;
+  z-index: 1;
+  width: auto;
+  height: 48px;color:white"></i></div>
+            <div class="counter-number-box">
+              <p id="number4" class="number">2016</p>
+            </div>
+            <p>Company Established</p>
+          </li>
+          <li>
+            <div class="icons"><i class="fa-solid fa-handshake" style="position: relative;
+  z-index: 1;
+  width: auto;
+  height: 48px;color:white"></i></div>
+            <div class="counter-number-box">
+              <p id="number2" class="number">50</p>
+              <i class="fa-solid fa-plus" style="margin-top: 1.5rem;color: #111010;"></i>
+            </div>
+            <p>Our Partners</p>
+          </li>
+          <li>
+            <div class="icons"><i class="fa-solid fa-box-open" style="position: relative;
+  z-index: 1;
+  width: auto;
+  height: 48px;color: white;"></i></div>
+            <div class="counter-number-box">
+              <p id="number3" class="number">100</p>
+              <i class="fa-solid fa-plus" style="margin-top: 1.5rem;color: #111010;"></i>
+            </div>
+            <p>All Products</p>
+          </li>
+          <li>
+            <div class="icons"><i class="fa-solid fa-user" style="position: relative;
+              z-index: 1;
+              width: auto;
+              height: 48px;color:white"></i>
+            </div>
+            <div class="counter-number-box">
+              <p id="number1" class="number">500</p>
+              <i class="fa-solid fa-plus" style="margin-top: 1.5rem;
+  color: #111010;"></i>
+            </div>
+            <p>Happy Clients</p>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+
+    <section class="counter-section-new">
+      <div class="counter-section-main-div">
+        <div class="counter-box1">
+          <div class="counter-box-icon-1st"> <i class="fa-solid fa-building" style="position: absolute;
+            top: 34%;
+            left: 38%;
+            z-index: 1;
+            width: auto;
+            height: 36px;
+            color: white;"></i>
+          </div>
+          <div class="counter-box-icon-2nd">
+            <span id="number4" class="number">2016</span>
+          </div>
+          <p>Company Established</p>
+        </div>
+        <div class="counter-box1">
+          <div class="counter-box-icon-1st"><i class="fa-solid fa-handshake" style="position: absolute;
+            top: 35%;
+            left: 31%;
+            z-index: 1;
+            width: auto;
+            height: 36px;
+            color: white;"></i>
+          </div>
+          <div class="counter-box-icon-2nd">
+            <span id="number2" class="number">30</span>
+            <i class="fa-solid fa-plus" style="color: black;
+            padding-bottom: .2rem;"></i>
+          </div>
+          <p>Our Partners</p>
+        </div>
+        <div class="counter-box1">
+          <div class="counter-box-icon-1st">
+            <i class="fa-solid fa-box-open" style="
+              z-index: 1;
+              width: auto;
+              height: 34px;
+              color: white;position: absolute;
+              top: 36%;
+              left: 32%;"></i>
+          </div>
+          <div class="counter-box-icon-2nd">
+            <span id="number3" class="number">3000</span>
+            <i class="fa-solid fa-plus" style="color: black;
+            padding-bottom: .2rem;"></i>
+          </div>
+          <p>Our Products</p>
+        </div>
+        <div class="counter-box1">
+          <div class="counter-box-icon-1st"><i class="fa-solid fa-users" style="position: absolute;
+              top: 35%;
+              left: 30%;
+              z-index: 1;
+              width: auto;
+              height: 34px;
+              color: white;"></i>
+          </div>
+          <div class="counter-box-icon-2nd">
+            <span id="number1" class="number">500</span>
+            <i class="fa-solid fa-plus" style="color: black;
+            padding-bottom: .2rem;"></i>
+          </div>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End Tabs Section -->
+
+    <section id="services" class="services2">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="heading-div">
+            <h2 class="heading_style">
+              <span style="font-weight: bold;color:black">Our Products</span>
+            </h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <div class="icon"><img src="./assets/icons/icons8-maintenance-64.png" alt=""></div>
+              <h4 class="title"><a href="hand-tools.html">Hand Tools</a></h4>
+              
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                occaecati cupiditate non provident</p>
+              <button class="product-btn"><a href="hand-tools.html" style="color:white">More</a></button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><img src="./assets/icons/icons8-garden-shears-64.png" alt=""></div>
+              <h4 class="title"><a href="garden-tool.html">Garden Tools</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat tarad limino ata</p>
+              <button class="product-btn"><a href="garden-tool.html" style="color:white">More</a></button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><img src="./assets/icons/icons8-electrical-64.png" alt=""></div>
+              <h4 class="title"><a href="">Power Tools</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur</p>
+              <button class="product-btn">More</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><img src="./assets/icons/icons8-welding-tool-64.png" alt="" style="opacity:1"></div>
+              <h4 class="title"><a href="">Welding Equipments</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum</p>
+              <button class="product-btn">More</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><img src="./assets/icons/icons8-safety-hat-64.png" alt=""></div>
+              <h4 class="title"><a href="">Safety Equipments</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque</p>
+              <button class="product-btn">More</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><img src="./assets/icons/icons8-link-64.png" alt=""></div>
+              <h4 class="title"><a href="">Link Chains</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+                soluta nobis est eligendi</p>
+              <button class="product-btn">More</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"> <img src="./assets/icons/icons8-lock-64.png" alt=""></div>
+              <h4 class="title"><a href="">Padlocks</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+                soluta nobis est eligendi</p>
+              <button class="product-btn">More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- <section class="shop_section">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="heading-div">
+            <h2 class="heading_style">
+              <span style="font-weight: bold;color:black">Our Products</span>
+            </h2>
+            <hr>
+          </div>
+        
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="shop_img-box">
+              <img src="./assets/img/our-products.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center h-100">
+              <div class="shop-detail">
+                <h5>
+                  Everything You Need
+                </h5>
+                
+                <div class="product-icons-container">
+                  <div class="product-1-icon">
+                    <a href="hand-tools.html">
+                      <img src="./assets/icons/icons8-maintenance-64.png" alt="">
+                      <p>Hand Tools</p>
+                    </a>
+                  </div>
+                  <div class="product-1-icon">
+                    <a href="#">
+                      <img src="./assets/icons/icons8-garden-shears-64.png" alt="">
+                      <p>Garden Tools</p>
+                    </a>
+                  </div>
+                  <div class="product-1-icon">
+                    <a href="#">
+                      <img src="./assets/icons/icons8-electrical-64.png" alt="">
+                      <p>Power Tools</p>
+                    </a>
+                  </div>
+                  <div class="product-1-icon">
+                    <a href="#">
+                      <img src="./assets/icons/icons8-welding-tool-64.png" alt="" style="opacity:1">
+                      <p>Welding Equipments</p>
+                    </a>
+                  </div>
+                  <div class="product-1-icon">
+                    <a href="#">
+                      <img src="./assets/icons/icons8-safety-64.png" alt="">
+                      <p>Safety Equipments</p>
+                    </a>
+                  </div>
+                  <div class="product-1-icon">
+                    <a href="#">
+                      <img src="./assets/icons/icons8-link-64.png" alt="">
+                      <p>Link Chains</p>
+                    </a>
+                  </div>
+                  <div class="product-1-icon">
+                    <a href="#">
+                      <img src="./assets/icons/icons8-lock-64.png" alt="">
+                      <p>Padlocks</p>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Portfolio Section -->
+
+    <!-- OUR BRANDS -->
+    <div class="d-flex justify-content-center">
+      <div class="heading-div">
+        <h2 class="heading_style">
+          <span style="font-weight: bold;color:black">Our Brands</span>
+        </h2>
+        <hr>
+      </div>
+
+    </div>
+    <section class="trigger section gutter-horizontal bg-gray gutter-vertical--m gutter-horizontal">
+      <div class=" container customer-logos slider">
+        <div class="slide-in-right slide"><img
+            src="./assets/img/sample-logo-png-6.png"
+            alt="Kinderhotel Aschauerhof" height="150" width="150"></a></div>
+        <div class="slide-in-right slide"><img
+            src="./assets/img/sample-logo-png-6.png" height="150" width="150"></a></div>
+        <div class="slide-in-right slide"><img
+            src="./assets/img/sample-logo-png-6.png"
+            height="150" width="150"></a></div>
+        <div class="slide-in-right slide"><img
+            src="./assets/img/sample-logo-png-6.png"
+            height="150" width="150"></a></div>
+        <div class="slide-in-right slide"><img
+            src="./assets/img/sample-logo-png-6.png"
+            height="150" width="150" alt="Tannenmuehle"></a></div>
+      </div>
+    </section>
+  
+    
+    <!-- ACCOLADES SECTION -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="d-flex justify-content-center">
+          <div class="heading-div">
+            <h2 class="heading_style">
+              <span style="font-weight: bold;color:black">Accolades</span>
+            </h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="accolades my-5">
+          <div class="acc-certificate" style="width:40rem;text-align:center">
+            <a href="./assets/img/certificatenew.jpg" download="certificatenew.jpg">
+              <center><img src="./assets/img/certificatenew.jpg" alt="" srcset="" style="width:18rem"></center>
+            </a>
+          </div>
+          <div class="acc-left-content">
+            <div class="acc-text">
+              <!-- <h4 style="text-align:center;"><span style="color:black">Our Certificate</span> & <span
+                  style="color:#cf1010">Achievement</span></h4> -->
+              <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Corrupti, nam?
+              </p>
+            </div>
+            <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ducimus temporibus tempore
+              recusandae maxime non sequi vel esse, repellendus laborum voluptatum tempora praesentium hic eveniet,
+              molestias at. Ipsam enim nisi officiis, aperiam explicabo, at eum culpa magni quo velit porro! Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit. Asperiores error quam ad, blanditiis esse magnam corporis
+              vel et placeat illo.</p>
+            <button class="accolades-btn"><a href="accolades.html" style="color:white">Read More</button>
+            
+          </div>
+
+        </div>
+    </section>
+    
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="heading-div">
+            <h2 class="heading_style">
+              <span style="font-weight: bold;color:black">Get In Touch</span>
+            </h2>
+            <hr>
+          </div>
+        </div>
+        
+
+        <div class="row my-5">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>13, Lower Ground Floor, T. N. Tower,Paltan Bazaar, Guwahati, Assam 781001</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p><a href="tel:+91-9678365724">+91-9678365724</a><br><a href="tel:+0361-3612540134">+91 0361-2540134
+                  </a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p><a href="mailto:info@tiwarienterprises.in">info@tiwarienterprises.in</a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <a href="www.tiwarienterprises.in"><i class="fa-solid fa-globe"></i></a>
+                  <h3>Website</h3>
+                  <p><a href="http://www.tiwarienterprises.in/" taget="_blank">www.tiwarienterprises.in</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required
+                  size="100">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="8" placeholder="Feedback/Enquiry" required
+                  style="height: 5.8rem;"></textarea>
+              </div>
+              <div><button class="send-btn">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              
+              <!-- <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>13, Lower Ground Floor, T. N. Tower, Assam Trunk Road, Paltan Bazaar, Guwahati, Assam 781001</p>
+                </div>
+              </div> -->
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p><a href="tel:+91-9678365724">+91-9678365724</a><br><a href="tel:+91-3612540134">+91-361-2540134</a>
+                  </p><br>
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p><a href="mailto:info@tiwarienterprises.in">info@tiwarienterprises.in<br><br><br></a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <a href="#"><i class="fa-solid fa-globe"></i></a>
+                  <h3>Website</h3>
+                  <p><a href="http://www.tiwarienterprises.in" target="_blank">www.tiwarienterprises.in</a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>13, Lower Ground Floor, T. N. Tower, Assam Trunk Road, Paltan Bazaar, Guwahati, Assam 781001</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required
+                  size="100">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email ID" required>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="8" placeholder="Feedback/Enquiry" required
+                  style="height: 5.8rem;"></textarea>
+              </div>
+              <div><button class="send-btn">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Tiwari Enterprises</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://webcomindia.biz/">Webcom (India) Pvt. Ltd.</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="https://wa.me/+919678365724" class="whatsapp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        <a href="#" class="whatsapp"><i class="fa-solid fa-user-plus"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="border-style:double"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+<script type="text/javascript">
+  var myCarousel = document.querySelector('#myCarousel')
+  var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 500,
+  wrap: false,
+})
+
+// counter js
+"use strict"
+let clients = setInterval(ourClients, 10);
+let partners = setInterval(happyPartners, 90);
+let project = setInterval(projectDone, 2);
+let established = setInterval(comEstablished, 5);
+let count1 = 1;
+let count2 = 1;
+let count3 = 1;
+let count4 = 1;
+function ourClients () {
+  count1++;
+  document.querySelector("#number1").innerHTML = count1;
+  if(count1 == 500) {
+    clearInterval(clients);
+  }
+}
+function happyPartners () {
+  count2++;
+  document.querySelector("#number2").innerHTML = count2;
+  if(count2 == 30) {
+  clearInterval(partners);
+  }
+}
+function projectDone () {
+  count3++;
+  document.querySelector("#number3").innerHTML = count3;
+  if(count3 == 3000) {
+  clearInterval(project);
+  }
+}
+function comEstablished () {
+  count4++;
+  document.querySelector("#number4").innerHTML = count4;
+    if(count4 == 2016) {
+      clearInterval(established);
+    }
+}
+
+</script>
+<!-- brand carousel -->
+<script>
+  $(document).ready(function(){
+  $('.customer-logos').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1500,
+  arrows: true,
+  dots: false,
+  pauseOnHover: false,
+  prevArrow: '<i class="slick-prev fas fa-angle-left"></i>',
+  nextArrow: '<i class="slick-next fas fa-angle-right"></i>',
+  responsive: [{
+  breakpoint: 768,
+  settings: {
+  slidesToShow: 3
+  }
+  }, {
+  breakpoint: 520,
+  settings: {
+  slidesToShow: 2
+  }
+  }]
+  });
+  });
+  
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>

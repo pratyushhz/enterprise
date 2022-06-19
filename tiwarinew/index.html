@@ -355,7 +355,7 @@
     </section> -->
 
     <section class="counter-section-new">
-      <div class="counter-section-main-div level counter-up">
+      <div id="inview-counters"  class="counter-section-main-div level counter-up">
         <div class="counter-box1">
           <div class="counter-box-icon-1st"> <i class="fa-solid fa-building" style="position: absolute;
             top: 34%;
@@ -366,8 +366,7 @@
             color: white;"></i>
           </div>
           <div class="counter-box-icon-2nd">
-            <span class="counter">2016</span>
-            
+            <span class="counter" data-count="2016">2016</span>
           </div>
           <p>Company Established</p>
         </div>
@@ -381,7 +380,7 @@
             color: white;"></i>
           </div>
           <div class="counter-box-icon-2nd">
-            <span class="counter">15</span>
+            <span class="counter" data-count="15">15</span>
             <i class="fa-solid fa-plus" style="color: black;
             padding-bottom: .2rem;"></i>
           </div>
@@ -398,7 +397,7 @@
               left: 32%;"></i>
           </div>
           <div class="counter-box-icon-2nd">
-            <span class="counter">1500</span>
+            <span class="counter" data-count="1500">1500</span>
             <i class="fa-solid fa-plus" style="color: black;
             padding-bottom: .2rem;"></i>
           </div>
@@ -414,7 +413,7 @@
               color: white;"></i>
           </div>
           <div class="counter-box-icon-2nd">
-            <span class="counter">300</span>
+            <span class="counter" data-count="300">300</span>
             <i class="fa-solid fa-plus" style="color: black;
             padding-bottom: .2rem;"></i>
           </div>
@@ -422,7 +421,6 @@
         </div>
       </div>
     </section>
-
     <!-- End Tabs Section -->
 
     <section id="services" class="services2">
@@ -774,7 +772,6 @@ padding-left: calc(var(--bs-gutter-x) * 1)!important; height:100%">
   
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://unpkg.com/jquery.counterup@2.1.0/jquery.counterup.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
   
   
@@ -783,15 +780,7 @@ padding-left: calc(var(--bs-gutter-x) * 1)!important; height:100%">
 
   <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   
-  
-  
-  
-  <script>
-    $('.counter').counterUp({
-      delay: 10,
-      time: 2000,
-    });
-  </script>
+ 
   
   <script>
 
@@ -845,6 +834,36 @@ padding-left: calc(var(--bs-gutter-x) * 1)!important; height:100%">
     loader.style.display="none";
   })
   </script>
+<script src="./assets/js/jquery.waypoints.min.js"></script>
+<script src="./assets/js/inview.min.js"></script>   
+<script>
+  function inviewExample() {
+     let $counters = $('#inview-counters');
+     let inview;
+
+     if ($counters.length) {
+       inview = new Waypoint.Inview({
+         element: $('#inview-counters')[0],
+         entered: function(direction) {
+        	 $('.counter').each(function () {
+          	   let $this = $(this);
+          	   let val = $(this).data('count');
+          	   jQuery({ Counter: 0 }).animate({ Counter: val }, {
+          	     duration: 1500,
+          	     easing: 'swing',
+          	     step: function () {
+          	       $this.text(Math.ceil(this.Counter));
+          	     }
+          	   });
+          	 });
+         }
+       })
+     }
+ }
+$(window).on('load', function() {
+	inviewExample();
+});
+</script>
   <!--<script>-->
   <!--  $(document).ready(function(){-->
   <!--  $('.customer-logos').slick({-->
@@ -1043,6 +1062,7 @@ padding-left: calc(var(--bs-gutter-x) * 1)!important; height:100%">
 <script>
   AOS.init();
 </script>
+
 </body>
 
 
